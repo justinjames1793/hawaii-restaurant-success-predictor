@@ -35,6 +35,7 @@ To ensure my predictive model strictly adhered to a "Time of Prediction" constra
 4. **Final Cleanup**: I dropped the original, un-parsable object columns to save memory. My final cleaned `restaurants_df` contains 4,301 valid Hawaiian restaurants.
 
 **Cleaned DataFrame Head:**
+
 | name                     | category                         |   avg_rating |   price | has_delivery   | is_open_weekends   |   num_related_competitors |
 |:-------------------------|:---------------------------------|-------------:|--------:|:---------------|:-------------------|--------------------------:|
 | Hale Pops                | Restaurant                       |          4.4 |     nan | True           | True               |                         5 |
@@ -254,8 +255,8 @@ My Final Model represents a massive improvement over the Baseline Model:
 * **Baseline R-squared:** 0.0042 -> **Final R-squared:** 0.1302
 
 By incorporating geography, market saturation, and target demographics, **the model's error dropped**, and its **variance explained (R-squared) skyrocketed from 0.4% to over 13%**. As seen in the Feature Importances plot above, the geographic cluster distance and the `price` tier are overwhelmingly the most important predictors of a restaurant's success. While predicting highly subjective human opinions (star ratings) will always carry inherent noise and variance, this 30x improvement in R-squared proves that an entrepreneur's pre-opening geographic and operational decisions directly and significantly impact their future rating.
----
 
+---
 
 ## Fairness Analysis
 
