@@ -250,11 +250,12 @@ The **`RandomForestRegressor`** was the official winner. The Grid Search identif
 <iframe src="assets/feature_importance.html" width="800" height="450" frameborder="0" class="plotly-graph"></iframe>
 
 My Final Model represents a massive improvement over the Baseline Model:
-* **Baseline RMSE:** 0.4675 stars  $\rightarrow$  **Final RMSE:** 0.4369 stars
-* **Baseline R-squared:** 0.0042 $\rightarrow$ **Final R-squared:** 0.1302
+* **Baseline RMSE:** 0.4675 stars  ->  **Final RMSE:** 0.4369 stars
+* **Baseline R-squared:** 0.0042 -> **Final R-squared:** 0.1302
 
 By incorporating geography, market saturation, and target demographics, **the model's error dropped**, and its **variance explained (R-squared) skyrocketed from 0.4% to over 13%**. As seen in the Feature Importances plot above, the geographic cluster distance and the `price` tier are overwhelmingly the most important predictors of a restaurant's success. While predicting highly subjective human opinions (star ratings) will always carry inherent noise and variance, this 30x improvement in R-squared proves that an entrepreneur's pre-opening geographic and operational decisions directly and significantly impact their future rating.
 ---
+
 
 ## Fairness Analysis
 
