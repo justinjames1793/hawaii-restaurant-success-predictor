@@ -283,10 +283,10 @@ To test this, I performed a permutation test with 500 iterations, shuffling the 
 **Conclusion: Interpreting the Fairness Analysis**
 
 * **Observed Difference:** 0.1967 stars
-* **P-Value:** 0.0360
+* **P-Value:** 0.0300
 
 **The Statistical Verdict:**
-With a p-value of 0.0360 (which strictly falls below our $\alpha$ threshold of 0.05), we **reject the null hypothesis**. The permutation test strongly suggests that this model does *not* achieve RMSE parity. Mathematically, the model is significantly worse at predicting the ratings of weekday-only restaurants (RMSE: 0.6216) compared to those open on weekends (RMSE: 0.4249).
+With a p-value of 0.0300 (which strictly falls below our $\alpha$ threshold of 0.05), we **reject the null hypothesis**. The permutation test strongly suggests that this model does *not* achieve RMSE parity. Mathematically, the model is significantly worse at predicting the ratings of weekday-only restaurants (RMSE: 0.6216) compared to those open on weekends (RMSE: 0.4249).
 
 **The Real-World Business Story:**
 Why is our model "unfairly" inaccurate for weekday-only spots? It comes down to human behavior. In a tourist-heavy economy like Hawaii, restaurants open on the weekends are likely catering to vacationers. Tourist behavior is highly geographic and heavily influenced by proximity to hubs—a pattern our K-Means clustering captured beautifully. 
