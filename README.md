@@ -36,17 +36,13 @@ To ensure my predictive model strictly adhered to a "Time of Prediction" constra
 
 **Cleaned DataFrame Head:**
 
-<div style="width: 100%; overflow-x: auto;">
-
-| name | category | avg_rating | price | has_delivery | is_open_weekends | num_related_competitors |
-|:---|:---|---:|---:|:---|:---|---:|
-| Hale Pops | Restaurant | 4.4 | nan | True | True | 5 |
-| Akasatana Ramen Kyoto | Ramen restaurant | 5.0 | nan | True | True | 2 |
-| Grill City | Restaurant | 3.5 | nan | True | True | 5 |
-| Buona Sera | Italian restaurant, Restaurant | 3.7 | 2.0 | True | True | 2 |
-| Tucker & Bevvy Breakfast | Fast food restaurant, Restaurant | 4.2 | nan | True | True | 4 |
-
-</div>
+<| name | avg_rating | has_delivery | num_related_competitors |
+|:---|---:|:---|---:|
+| Hale Pops | 4.4 | True | 5 |
+| Akasatana Ramen | 5.0 | True | 2 |
+| Grill City | 3.5 | True | 5 |
+| Buona Sera | 3.7 | True | 2 |
+| Tucker & Bevvy | 4.2 | True | 4 |
 
 ### Univariate Analysis
 
