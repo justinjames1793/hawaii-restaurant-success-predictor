@@ -36,6 +36,8 @@ To ensure my predictive model strictly adhered to a "Time of Prediction" constra
 
 **Cleaned DataFrame Head:**
 
+<div style="overflow-x: auto;">
+
 | name                     | category                         |   avg_rating |   price | has_delivery   | is_open_weekends   |   num_related_competitors |
 |:-------------------------|:---------------------------------|-------------:|--------:|:---------------|:-------------------|--------------------------:|
 | Hale Pops                | Restaurant                       |          4.4 |     nan | True           | True               |                         5 |
@@ -43,6 +45,8 @@ To ensure my predictive model strictly adhered to a "Time of Prediction" constra
 | Grill City               | Restaurant                       |          3.5 |     nan | True           | True               |                         5 |
 | Buona Sera               | Italian restaurant, Restaurant   |          3.7 |       2 | True           | True               |                         2 |
 | Tucker & Bevvy Breakfast | Fast food restaurant, Restaurant |          4.2 |     nan | True           | True               |                         4 |
+
+</div>
 
 ### Univariate Analysis
 
