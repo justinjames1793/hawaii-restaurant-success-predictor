@@ -36,7 +36,7 @@ To ensure my predictive model strictly adhered to a "Time of Prediction" constra
 
 **Cleaned DataFrame Head:**
 
-<| name | avg_rating | has_delivery | num_related_competitors |
+| name | avg_rating | has_delivery | num_related_competitors |
 |:---|---:|:---|---:|
 | Hale Pops | 4.4 | True | 5 |
 | Akasatana Ramen | 5.0 | True | 2 |
